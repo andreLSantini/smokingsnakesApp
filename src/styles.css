@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+.hovershadow:hover {
+  -webkit-box-shadow: 0px 24px 20px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 24px 20px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 10px -4px rgba(0,0,0,0.75);
+  border-radius:20%;
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.hovershadow {
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.font-icon {
+ font-size: 1.3em
+}
+
+.grayteste {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.grayteste:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.facebookicon:hover {
+  color: #286ee0
+}
+.youtubeicon:hover {
+  color: #286ee0
+}
+.twittericon:hover {
+  color: #286ee0
+}
+.instagramicon:hover {
+  color: #286ee0
+}
+.twitchicon:hover {
+  color: #286ee0
+}
